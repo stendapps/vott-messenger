@@ -1,6 +1,6 @@
 {
-  "name": "vott-messenger",
-  "version": "0.7.2",
+  "name": "stendapps-vott-messenger",
+  "version": "0.0.1",
   "description": "An extensible framework for building Messenger bots",
   "main": "./lib/index.js",
   "scripts": {
@@ -13,9 +13,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/krismuniz/vott-messenger.git"
+    "url": "git://github.com/stendapps/vott-messenger.git"
   },
-  "author": "Kristian Muñiz <contact@krismuniz.com> (http://www.krismuniz.com)",
+  "author": "Stefano Mendicino",
   "license": "MIT",
   "keywords": [
     "Messenger",
