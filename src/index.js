@@ -7,8 +7,8 @@ export class MessengerBot extends Vott {
   constructor (config) {
     super(config)
     this.platform = 'Messenger'
-    this.config.endpoint = '/facebook/receive'
-    this.config.port = 8080
+    this.config.endpoint = '/webhook'
+    this.config.port = process.env.PORT || 5000
     this.config = Object.assign(this.config, config)
   }
 
